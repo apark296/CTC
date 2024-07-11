@@ -1,0 +1,35 @@
+body {
+    /* background-image: url('home.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #01ff2b;
+    font-family: Arial, sans-serif;
+}
+
+img {
+    width: 700px;
+    height: 700px; 
+    object-fit: cover;
+    margin: 10px 0;
+}
+
+button {
+    padding: 20px 55px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #4e574b;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #000000;
+}

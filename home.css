@@ -1,0 +1,29 @@
+body {
+    /* background-image: url('home.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9c6e5;
+    font-family: Arial, sans-serif;
+    color:#646262;
+}
+
+button {
+    padding: 50px 500px;
+    font-size: 50px;
+    color: #f9c6e5;
+    background-color: #fcfcfc;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #fce1f1;
+}
